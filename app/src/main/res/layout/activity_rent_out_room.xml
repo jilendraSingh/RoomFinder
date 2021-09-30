@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    tools:context=".activity.RentOutRoomActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="City"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_CityName"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="Enter City Name"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Address"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_RoomAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="Enter Room Address"
+                    android:inputType="textMultiLine"
+                    android:padding="2dp"
+                    android:paddingLeft="5dp"
+                    android:scrollbars="vertical"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Pin Code"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_PinCode"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="Enter pin code"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/budget"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_RoomBudget"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="Enter Room budget"
+                    android:inputType="numberDecimal"
+                    android:maxLength="7"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Mobile No."
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_MobileNo"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="Enter Mobile No."
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Floor No."
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_FloorNo"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/edt_border"
+                    android:hint="0 for Ground Floor"
+                    android:inputType="numberDecimal"
+                    android:maxLength="1"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/room_type"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/roomType_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/down_arrow"
+                    android:paddingRight="10dp"
+                    android:text="@string/please_seletc_room_type"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:paddingTop="5dp"
+                    android:text="@string/available_facility"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_TV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/tv"
+                    android:textSize="@dimen/textSize" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_WiFi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/wifi"
+                    android:textSize="@dimen/textSize" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_Gyser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/gyser"
+                    android:textSize="@dimen/textSize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_CarParking"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/car_parking"
+                    android:textSize="@dimen/textSize" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_BikeParking"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:text="@string/bike_parking"
+                    android:textSize="@dimen/textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/images_of_room"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_uploadImage"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/upload_image"
+                    android:textSize="@dimen/textSize" />
+
+                <ImageView
+                    android:id="@+id/select_image"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="4"
+                    android:text="@string/images_of_room"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/rentOut_SubmitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="@string/submit_detail"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

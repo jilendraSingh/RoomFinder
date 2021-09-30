@@ -1,0 +1,2 @@
+rootProject.name='RoomFinder App'
+include ':app'

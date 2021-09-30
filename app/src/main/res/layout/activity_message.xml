@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MessageActivity">
+
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_showNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edt_inputMessage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edt_border"
+            android:gravity="start"
+            android:hint="Type Message"
+            android:textSize="@dimen/rd_textSize"
+            android:paddingLeft="10dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_SendMessage"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_border"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:text="@string/send_message"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textSize" />
+    </RelativeLayout>
+
+
+</LinearLayout>

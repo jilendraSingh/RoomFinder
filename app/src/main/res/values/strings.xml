@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Jilla Room </string>
+    <string name="find_roommate">Find RoomMate</string>
+    <string name="shared_room">Find Room</string>
+    <string name="find_room"> Share your Flat/Room</string>
+    <string name="name">Name :</string>
+    <string name="gender">Gender :</string>
+    <string name="age">Age :</string>
+    <string name="budget">Budget  :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment1">Hello blank fragment One</string>
+    <string name="_1_bhk">1 BHK</string>
+    <string name="_2_bhk">2 BHK</string>
+    <string name="_3_bhk">3 BHK</string>
+    <string name="_1_room_1_bathroom">1 Room + 1 Bathroom</string>
+    <string name="_1_room_shared_bathroom">1 Room + Shared Bathroom</string>
+    <string name="_2_room_1_bathroom">2 Room + 1 Bathroom</string>
+    <string name="_2_room_shared_bathroom">2 Room +Shared Bathroom</string>
+    <string name="please_seletc_room_type">Please Seletc Room Type</string>
+    <string name="room_type">Room Type :</string>
+    <string name="available_facility">Available Facility</string>
+    <string name="tv">TV</string>
+    <string name="wifi">WiFi</string>
+    <string name="gyser">Gyser</string>
+    <string name="car_parking">Car Parking</string>
+    <string name="bike_parking">Bike Parking</string>
+    <string name="images_of_room">Images of Room</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="submit_detail">Submit Detail</string>
+    <string name="send_message">Send Message</string>
+    <string name="city">City :</string>
+    <string name="address">Address :</string>
+    <string name="floor_no">Floor No :</string>
+    <string name="mobile_no">Contact No.</string>
+    <string name="p_name">Name</string>
+    <string name="p_email">Email Id</string>
+    <string name="p_password">Password</string>
+    <string name="p_confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="p_contact">Contact No.</string>
+    <string name="rent_out_your_room">Rent Out Your Room</string>
+    <string name="purpose_find_room">Find Room</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="welcome_to_room_finder_app">Welcome To Room Finder</string>
+    <string name="logout">Log Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="setting">Profile</string>
+    <string name="help">Need Help ?</string>
+    <string name="find_room_mates">Find Room Mates</string>
+    <string name="note">Note :</string>
+    <string name="you_are_not_eligible_for_this_service_if_you_want_to_use_this_service_charges_would_be_100_rs">You are not eligible for this service. If you want to use this service charges would be 100 rs.</string>
+    <string name="select_device">Select Device</string>
+    <string name="secure_device">Secure Device</string>
+    <string name="locate_device">Locate Device</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="check_room_list">Check Room List</string>
+</resources>

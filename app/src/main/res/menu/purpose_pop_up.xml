@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one_bhk"
+        android:title="@string/rent_out_your_room" />
+
+    <item
+        android:id="@+id/two_bhk"
+        android:title="@string/purpose_find_room" />
+
+    <item
+        android:id="@+id/three_bhk"
+        android:title="@string/find_room_mates" />
+
+
+</menu>

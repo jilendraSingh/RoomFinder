@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one_bhk"
+        android:title="@string/_1_bhk" />
+
+    <item
+        android:id="@+id/two_bhk"
+        android:title="@string/_2_bhk" />
+
+    <item
+        android:id="@+id/three_bhk"
+        android:title="@string/_3_bhk" />
+
+    <item
+        android:id="@+id/oneRoom_Bathroom"
+        android:title="@string/_1_room_1_bathroom" />
+
+    <item
+        android:id="@+id/oneRoom_SharedBathroom"
+        android:title="@string/_1_room_shared_bathroom" />
+
+    <item
+        android:id="@+id/twoRoom_Bathroom"
+        android:title="@string/_2_room_1_bathroom" />
+
+    <item
+        android:id="@+id/twoRoom_SharedBathroom"
+        android:title="@string/_2_room_shared_bathroom" />
+
+
+</menu>
