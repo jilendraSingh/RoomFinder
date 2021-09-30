@@ -13,8 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.roomfinderapp.R;
+import com.example.roomfinderapp.activity.FindRoomActivity;
 import com.example.roomfinderapp.activity.RentOutRoomActivity;
-import com.example.roomfinderapp.activity.RoomListActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -45,7 +45,7 @@ public class HomeFragment extends Fragment {
         roomListButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(requireActivity(), RoomListActivity.class));
+                startActivity(new Intent(requireActivity(), FindRoomActivity.class));
             }
         });
 

@@ -1,18 +1,16 @@
 package com.example.roomfinderapp.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.DividerItemDecoration;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
 
-import com.example.roomfinderapp.adapter_classes.FindRoomAdapter;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.roomfinderapp.R;
+import com.example.roomfinderapp.adapter_classes.FindRoomAdapter;
 import com.example.roomfinderapp.roomdatabase_folder.DatabaseClient;
 import com.example.roomfinderapp.roomdatabase_folder.RentOutRoomModel;
 
@@ -20,7 +18,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class FindRoomActivity extends AppCompatActivity {
+public class FindRoomActivity extends BaseActivity {
     RecyclerView findroom_ListView;
 
 
@@ -36,6 +34,7 @@ public class FindRoomActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room_mate_list);
 
+        setToolBar(this, "Room List");
         roomDetailList = new ArrayList<>();
         arrayList = new ArrayList<>();
         imgArrayList = new ArrayList<>();
